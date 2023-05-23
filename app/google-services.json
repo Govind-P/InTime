@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905408049697",
+    "project_id": "student-calendar-b6e15",
+    "storage_bucket": "student-calendar-b6e15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905408049697:android:6823e8634c1670b9a0e960",
+        "android_client_info": {
+          "package_name": "com.example.student_calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905408049697-gbevsdd36o3okqthdnfum5p781jb7qlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYnSj0cVsI4ajV3lR4I7BltCL0Qli71xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905408049697-gbevsdd36o3okqthdnfum5p781jb7qlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

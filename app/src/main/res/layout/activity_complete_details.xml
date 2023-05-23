@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lavender"
+    tools:context=".Completed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/lavender_border"
+        tools:ignore="ExtraText">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/ctitledetail"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cdecdetails"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:text="Desc"
+            android:textSize="24dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/csubdetails"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="subject"
+            android:textSize="24dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpriodetails"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="Priority"
+            android:textSize="24dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/cduedetails"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="Duedate"
+            android:textSize="24dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="-60dp"
+            app:cardBackgroundColor="@color/white"
+            android:paddingTop="-30dp"
+            app:cardCornerRadius="20dp"
+            android:background="@drawable/baseline_calendar_today_24">
+            <ImageView
+                android:id="@+id/cnotifydate"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitStart"
+                android:paddingStart="8dp"
+                android:paddingTop="6dp"
+                android:src="@drawable/baseline_calendar_today_24"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/cduetimedetails"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="DueTime"
+            android:textSize="24dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="-60dp"
+            app:cardBackgroundColor="@color/white"
+            android:paddingTop="-30dp"
+            app:cardCornerRadius="20dp"
+            android:background="@drawable/baseline_calendar_today_24">
+            <ImageView
+                android:id="@+id/cnotifytimedue"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sharp_watch_later_24"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/cnotifydetails"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="Notify at"
+            android:textSize="24dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="-60dp"
+            app:cardBackgroundColor="@color/white"
+            android:paddingTop="-30dp"
+            app:cardCornerRadius="20dp"
+            android:background="@drawable/baseline_calendar_today_24">
+            <ImageView
+                android:id="@+id/ctimenotify"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sharp_watch_later_24"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/uploadimg"
+            android:id="@+id/cuploadImage"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:scaleType="fitXY"/>
+
+        />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Restore"
+            android:id="@+id/crestore"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            app:cornerRadius = "20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Delete"
+            android:id="@+id/cdelete"
+            android:textSize="18sp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginStart="200dp"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+</ScrollView>
