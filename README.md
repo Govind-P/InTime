@@ -1,2 +1,2 @@
 # InTime
-#it is a student task management app
+#An app for student task management.
